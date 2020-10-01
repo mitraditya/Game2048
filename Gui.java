@@ -2,11 +2,11 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-class GUI extends JPanel implements KeyListener
+class Gui extends JPanel implements KeyListener
 {
     JFrame frame;
     Game game;
-    public GUI()
+    public Gui()
     {
         frame=new JFrame("2048");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -128,6 +128,6 @@ class GUI extends JPanel implements KeyListener
     }
     public static void main(String args[])
     {
-        GUI gui=new GUI();
+        Gui gui=new Gui();
     }
 }
